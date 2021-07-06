@@ -31,7 +31,7 @@ section{
 
 .flexible-div{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 5%;
 }
 
 .half-width{
@@ -64,7 +64,10 @@ section{
 
 
 /* --------- Portfolio Section -------- */
-
+.portfolio-area{
+    height: 600px;
+    margin-bottom: 200px;
+}
 .portfolio-area h2{
     text-align: center;
     margin-bottom: 30px;
@@ -90,13 +93,42 @@ section{
 .portfolio-item p{
     text-align: center;
 }
+/* -------- Team Section ----------- */
+
+.team-sec{
+    background-image: url(/images/team/team-bg.jpg);
+}
+.team-sec h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.team-member{
+    width: 22%;
+    margin-left: 2%;
+    box-shadow: 0 0 10px 5px lightgray;
+    border-radius: 10px;
+}
+.team-member h3{
+    font-size: 1.5em;
+    text-align: center;
+}
+.team-member p{
+    font-size: 1em;
+    margin-top: -20px;
+    text-align: center;
+}
+.team-member img{
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
 
 /* --------- Info Section -------- */
 
 .info-area{
     height: 170px;
     width: 80%;
-    margin-top: 350px;
+    margin-top: 100px;
     margin-left: 10%;
     box-shadow: 0 0 10px 3px lightgray;
     border-radius: 15px;
