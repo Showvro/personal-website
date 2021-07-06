@@ -110,13 +110,16 @@ hr{
     margin-top: -30px;
     margin-bottom: 50px;
 }
-.team-sec h2{
+#team-area h2{
     text-align: center;
     margin-bottom: 30px;
 }
+#team-area{
+    width: 70%;
+}
 .team-member{
     width: 22%;
-    margin-left: 2%;
+    margin-left: 2.5%;
     box-shadow: 0 0 10px 5px lightgray;
     border-radius: 10px;
 }
